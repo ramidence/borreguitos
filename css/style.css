@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+	font-family: "Shyest";
+	src: url("../fonts/ShyestPersonalUse-Bold.otf") format("opentype");
+}
+
+
+:root{
+	--color-general: #FDE4CF;
+	--color-azul: #A3C4F3;
+	
+}
+
+
+body{
+	font-family: "Montserrat";
+	
+}
+
+header{
+	padding: 20px 0%;
+	background-color: #FFFFFF;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin: 10px 0 ;
+	background-image: url("../img/fondo nav.jpg");
+}
+
+.offset-1{
+	padding-left: 0px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+	margin-top: 95px;
+}
+
+header input, button{
+	margin-top: 95px;
+}
+
+header ul li{
+    margin: 5px 5;
+}
+
+header img{
+	width: 125px;
+	margin-left: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#mas-vendidos{
+	
+	background-image: url("../img/mas-vendidos.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+  	text-align: center;
+	
+}
+
+#promociones{
+	background-image: url("../img/Promociones.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size:cover;
+  	text-align: center;
+	padding-top: 500px;
+}
+
+.top-padding{
+	padding-top: 400px;
+	padding-bottom: 0px;
+}
+
+.top-padding-img{
+	padding-top: 30px;
+}
+
+.img-producto{
+	width: 250px;
+	align-items: center;
+	border: 3px solid #A3C4F3;
+	border-radius: 30px;
+}
+
+.img-buy{
+	width: 40%;
+	border-radius: 60px;
+}
+
+.titulo-celeste{
+	color: #A3C4F3;
+	font-weight: 700;
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+.titulo-azul{
+	color: #2F5489;
+	font-weight: 700;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+#separador{
+	max-height:70px;
+	padding: 0;
+}
+
+#mas-vendidos h2, #promociones h2{
+	color: #2F5489;
+	font-size: 60px;
+	padding: 30px;
+	font-family: "Shyest";
+}
+
+footer{
+	background-color: #A3C4F3;
+	color: #FFFFFF;
+	padding: 50px 0;
+	text-align: center;
+}
+
+footer p{
+	text-align: left;
+	padding-left: 89px;
+}
+.text-center{
+	text-align: left;
+	padding: 0;
+}
+
+.logo-borreguitos{
+  width: 25%;
+}
+
+.icon-redes{
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+}
+.colmena{
+	height: 30px;
+	padding-right: 5px;
+}
+
+.img-buy{
+	width: 20%;
+	border-radius: 60px;
+	margin-bottom: 40px;
+	
+}
+
+.btn-uwu{
+	color: var(--color-azul);
+	border: 1px solid var(--color-azul);
+	background-color: #FFFFFF;
+}
+
+
+.btn-uwu:hover{
+	color: #FFFFFF;
+	border: 1px solid var(--color-azul);
+	background-color: var(--color-azul);
+}
+
+
+
+
+/*Definiciones de reglas página "Nosotros"*/
+#hero-nosotros h2{
+	color: #2F5489;
+	font-size: 80px;
+	padding: 30px;
+	font-family: "Shyest";
+	text-align: center;
+}
+
+#historia h3{
+	color: #2F5489;
+	font-size: 60px;
+	padding: 30px;
+	font-family: "Shyest";
+	text-align: center;
+}
+
+.img-historia{
+	border-radius: 20%;
+	border: solid 2px var(--color-azul);
+	padding-left: 0;
+}
+
+.p1{
+	text-align: left;
+}
+
+.p2{
+	text-align: justify;
+}
+
+#historia{
+	padding-bottom: 10%;
+}
+
+/*Definiciones de reglas página "Productos"*/
+
+.mas-vendidos-productos{
+	background-image: url("../img/Footer-Arriba.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+  	text-align: center;
+
+}
+
+
+
+
+

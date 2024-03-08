@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face{
 	font-family: "Shyest";
@@ -9,13 +9,12 @@
 :root{
 	--color-general: #FDE4CF;
 	--color-azul: #A3C4F3;
-	
+	--color-azul-oscuro: #2F5489;
 }
 
 
 body{
 	font-family: "Montserrat";
-	
 }
 
 header{
@@ -23,13 +22,15 @@ header{
 	background-color: #FFFFFF;
 	background-size:cover;
 	background-repeat: no-repeat;
+	margin-left: 30px;
 	margin: 10px 0 ;
-	background-image: url("../img/fondo nav.jpg");
+	background-image: url("../img/fondo-nav.jpg");
 }
 
 .offset-1{
 	padding-left: 0px;
 }
+
 header ul{
     list-style: none;
     display: flex;
@@ -45,13 +46,23 @@ header ul li{
     margin: 5px 5;
 }
 
-header img{
-	width: 125px;
-	margin-left: 30px;
-}
-
 a{
 	text-decoration: none;
+}
+
+.btn-icon{
+	font-size: 28px;
+	color: var(--color-azul);
+	border: 2px solid var(--color-azul);
+	background-color: #FFFFFF;
+	border-radius: 60%;
+	padding: 15% 15%;
+	text-align: center;
+}
+
+.btn-icon:hover{
+	background-color: var(--color-azul);
+	color: #FFFFFF;
 }
 
 #mas-vendidos{
@@ -71,6 +82,7 @@ a{
 	background-size:cover;
   	text-align: center;
 	padding-top: 500px;
+	padding-bottom: 15%;
 }
 
 .top-padding{
@@ -89,16 +101,18 @@ a{
 	border-radius: 30px;
 }
 
-.img-buy{
-	width: 40%;
-	border-radius: 60px;
-}
-
 .titulo-celeste{
 	color: #A3C4F3;
 	font-weight: 700;
 	padding-top: 20px;
-	font-size: 40px;
+	font-size: 35px;
+}
+
+.titulo-celeste-2{
+	color: #A3C4F3;
+	font-weight: 700;
+	padding-top: 20px;
+	font-size: 30px;
 }
 
 .titulo-azul{
@@ -136,7 +150,8 @@ footer p{
 }
 
 .logo-borreguitos{
-  width: 25%;
+  width: 23%;
+  margin-left: 8%;
 }
 
 .icon-redes{
@@ -203,9 +218,9 @@ footer p{
 	text-align: justify;
 }
 
-#historia{
-	padding-bottom: 10%;
-}
+
+
+
 
 /*Definiciones de reglas página "Productos"*/
 
@@ -215,10 +230,176 @@ footer p{
 	background-position: bottom;
 	background-size: 100%;
   	text-align: center;
-
+	margin-top: 5%;
+	padding-bottom: 15%;
 }
 
 
 
 
+/*Definiciones de reglas página "Perfil"*/
+
+.boton-naranja{
+	color: #2F5489;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+#hero-perfil ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+#hero-perfil ul li{
+	margin-bottom: 2%;
+	width: 50%;
+	background-color: var(--color-general);
+	border: 3px solid var(--color-azul);
+	padding: 0.6% 5%;
+	border-radius: 50px;
+	text-align: center;
+}
+
+#hero-perfil ul li:hover{
+	color: #FFFFFF;
+	margin-bottom: 2%;
+	width: 50%;
+	background-color: var(--color-azul);
+	border: 3px solid var(--color-azul);
+	padding: 0.6% 5%;
+	border-radius: 50px;
+	text-align: center;
+}
+
+#hero-perfil{
+	background-image: url("../img/waldobg.png"); /*arreglar aquí, imagen*/
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+  	text-align: left;
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+#hero-perfil .boton-naranja:hover{
+	color: #fff;
+}
+
+
+.perfil-img{
+	border-radius: 40px;
+	width: 40%;
+	
+}
+
+#hero-perfil h3{
+	color: var(--color-azul-oscuro);
+	font-weight: 700;
+	padding-left: 0px;
+	font-size: 60px;
+	font-family: shyest;
+}
+
+/*Definiciones de reglas página "Personalizados"*/
+#hero-personalizados{
+	background-image: url("../img/waldobg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+  	text-align: center;
+	padding-top: 8%;
+	padding-bottom: 12%;
+}
+
+#hero-personalizados h3,#hero-comprados h3{
+	color: var(--color-azul-oscuro);
+	font-weight: 700;
+	padding-bottom: 4%;
+	font-size: 60px;
+	font-family: shyest;
+	text-align: center;
+}
+
+
+
+/*Definiciones de reglas página "Comprados"*/
+#hero-comprados{
+	background-image: url("../img/waldobg.png"); /*arreglar aquí, imagen*/
+	background-repeat: no-repeat;
+	background-size: cover;
+  	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 10%;
+}
+
+
+
+
+
+/*Definiciones de reglas página "Pendientes"*/
+
+#hero-pendientes .boton-naranja{
+	background-color: var(--color-general);
+	border: 3px solid var(--color-azul);
+	padding: 0.6% 5%;
+	border-radius: 50px;
+	text-align: center;	
+}
+
+#hero-pendientes .boton-naranja:hover{
+	color: #FFFFFF;
+	background-color: var(--color-azul);
+	border: 3px solid var(--color-azul);
+	padding: 0.6% 5%;
+	border-radius: 50px;
+	text-align: center;	
+}
+
+#hero-pendientes{
+	background-image: url("../img/waldobg.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+  	padding: 100px 0;
+	text-align: center;
+}
+
+.waldo-img{
+	border-radius: 15%;
+	border: 2px solid var(--color-azul);
+	height: 60%;
+}
+
+#hero-pendientes h3{
+	color: var(--color-azul-oscuro);
+	font-weight: 700;
+	padding-left: 0px;
+	font-size: 40px;
+}
+
+#hero-pendientes p{
+	padding-right: 50%;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.centrateeeee{
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+	#hero-perfil ul li{
+		width: 100%;
+	}
+}
 

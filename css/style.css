@@ -76,7 +76,7 @@ a{
 }
 
 #promociones{
-	background-image: url("../img/Promociones.png");
+	background-image: url("../img/promociones.png");
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size:cover;
@@ -104,15 +104,16 @@ a{
 .titulo-celeste{
 	color: #A3C4F3;
 	font-weight: 700;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 35px;
 }
 
 .titulo-celeste-2{
 	color: #A3C4F3;
 	font-weight: 700;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 30px;
+	margin-bottom: 5%;
 }
 
 .titulo-azul{
@@ -121,16 +122,19 @@ a{
 	padding-bottom: 10px;
 	font-size: 25px;
 }
+
+.titulo-principal{
+	color: var(--color-azul-oscuro);
+	font-weight: 700;
+	padding-bottom: 4%;
+	font-size: 60px;
+	font-family: shyest;
+	text-align: center;
+}
+
 #separador{
 	max-height:70px;
 	padding: 0;
-}
-
-#mas-vendidos h2, #promociones h2{
-	color: #2F5489;
-	font-size: 60px;
-	padding: 30px;
-	font-family: "Shyest";
 }
 
 footer{
@@ -186,19 +190,10 @@ footer p{
 
 
 
-
 /*Definiciones de reglas página "Nosotros"*/
 #hero-nosotros h2{
 	color: #2F5489;
 	font-size: 80px;
-	padding: 30px;
-	font-family: "Shyest";
-	text-align: center;
-}
-
-#historia h3{
-	color: #2F5489;
-	font-size: 60px;
 	padding: 30px;
 	font-family: "Shyest";
 	text-align: center;
@@ -225,7 +220,7 @@ footer p{
 /*Definiciones de reglas página "Productos"*/
 
 .mas-vendidos-productos{
-	background-image: url("../img/Footer-Arriba.png");
+	background-image: url("../img/footer-arriba.png");
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: 100%;
@@ -233,8 +228,6 @@ footer p{
 	margin-top: 5%;
 	padding-bottom: 15%;
 }
-
-
 
 
 /*Definiciones de reglas página "Perfil"*/
@@ -245,12 +238,10 @@ footer p{
 	font-weight: 600;
 }
 
-
 #hero-perfil ul{
 	list-style: none;
 	padding-left: 0px;
 }
-
 
 #hero-perfil ul li{
 	margin-bottom: 2%;
@@ -274,13 +265,17 @@ footer p{
 }
 
 #hero-perfil{
-	background-image: url("../img/waldobg.png"); /*arreglar aquí, imagen*/
+	background-image: url("../img/waldobg.png");
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: 100%;
   	text-align: left;
 	padding-top: 5%;
 	padding-bottom: 10%;
+}
+
+#hero-perfil .titulo-principal{
+	text-align: left;
 }
 
 #hero-perfil .boton-naranja:hover{
@@ -291,16 +286,9 @@ footer p{
 .perfil-img{
 	border-radius: 40px;
 	width: 40%;
-	
+	margin-bottom: 10%;
 }
 
-#hero-perfil h3{
-	color: var(--color-azul-oscuro);
-	font-weight: 700;
-	padding-left: 0px;
-	font-size: 60px;
-	font-family: shyest;
-}
 
 /*Definiciones de reglas página "Personalizados"*/
 #hero-personalizados{
@@ -312,29 +300,16 @@ footer p{
 	padding-bottom: 12%;
 }
 
-#hero-personalizados h3,#hero-comprados h3{
-	color: var(--color-azul-oscuro);
-	font-weight: 700;
-	padding-bottom: 4%;
-	font-size: 60px;
-	font-family: shyest;
-	text-align: center;
-}
-
-
 
 /*Definiciones de reglas página "Comprados"*/
 #hero-comprados{
-	background-image: url("../img/waldobg.png"); /*arreglar aquí, imagen*/
+	background-image: url("../img/waldobg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
   	text-align: center;
 	padding-top: 6%;
 	padding-bottom: 10%;
 }
-
-
-
 
 
 /*Definiciones de reglas página "Pendientes"*/
@@ -389,17 +364,358 @@ footer p{
 }
 
 
+/*Definiciones de reglas página "Promociones"*/
+#hero-promociones{
+	background-image: url("../img/footer-arriba.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	padding-bottom: 15%;
+}
+
+
+/*Definiciones de reglas página "Más vendidos"*/
+#hero-mas-vendidos{
+	background-image: url("../img/footer-arriba.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	padding-bottom: 15%;
+}
 
 
 
+/*Definiciones de reglas página "Disney"*/
+#hero-disney{
+	background-image: url("../img/footer-arriba.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	padding-bottom: 15%;
+}
 
 
 
+/*Definiciones de reglas página "Anime"*/
+#hero-anime{
+	background-image: url("../img/footer-arriba.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	padding-bottom: 15%;
+}
+
+
+#contacto{
+	padding-bottom: 3%;
+}
+
+.formulario h2{
+	text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+.formulario{
+    box-shadow: 0px 0px 30px 5px #ddd;
+    border-radius: 50px;
+    padding: 40px 25px;
+}
+
+/*Contacto*/
+#contacto{
+	padding-bottom: 3%;
+}
+
+#contacto h2{
+    font-size: 35px;
+    font-weight: 700;
+	margin-bottom: 5%;
+}
+
+.formulario{
+    box-shadow: 0px 0px 30px 5px #ddd;
+    border-radius: 50px;
+    padding: 40px 25px;
+}
+
+#contacto .form-control{
+    background-color: var(--color-azul);
+    border: none;
+    padding: 20px 20px;
+}
+#contacto .form-control::placeholder{
+	color: #fff;
+	font-weight: 500;
+}
+
+.img-form{
+	height: 100%;
+	border-radius: 50px;
+	border: solid 4px var(--color-azul);
+}
+
+#contacto .titulo-celeste{
+	text-align: center;
+}
+
+.btn-submit{
+	color: #fff;
+	font-weight: 600;
+	background-color: var(--color-azul);
+	border-radius: 100px;
+	padding: 10% 20%;
+}
+
+.btn-submit:hover{
+	background-color: var(--color-general);
+	color: var(--color-azul);
+	font-weight: 600;
+}
 
 
 @media (max-width:600px){
+	.navbar{
+		flex-wrap: wrap;
+	}
+	a.navbar-brand{
+		width: 200px;
+	}
+	header ul{
+		margin-top: 5%;
+	}
+	.btn-icon{
+		font-size: 20px;
+	}
+	header input, button{
+		margin-top: 0;
+	}
+	header{
+		padding: 0;
+		background-image: url("../img/fondo-nav.jpg");
+	}
+	.logo-borreguitos{
+		width: 15%;
+		margin-right: 0;
+	}
+	.carousel .carousel-item {
+		height: 185px;
+	}
+	.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+	}
+	.carousel-control-next, .carousel-control-prev {
+   		top: 25% !important;
+		height: 100px;
+		width: 8%;
+	}
+	.carousel-indicators{
+		top: 85%;
+		height: 20px;
+		margin-bottom: 0;
+	}
+	iframe{
+		height: 300px;
+	}
+	#mas-vendidos,#promociones{
+		background-image: none;
+	}
+	#mas-vendidos{
+		background-color: var(--color-general);
+	}
+	.top-padding{
+		padding-top: 40px;
+	}
+	#promociones{
+		padding-top: 50px;
+	}
+	.top-padding-img{
+		padding-top: 0;
+	}
+	#hero-nosotros h2 {
+		font-size: 50px;
+		padding: 30px;
+	}
+	.titulo-principal{
+		text-align: center !important;
+		font-size: 40px;
+	}
+	.img-historia{
+		width: 50%;
+	}
+	#historia img{
+		margin-bottom: 5%;
+	}
+	#historia .mt-5{
+		margin-top: 0;
+	}
+	#hero-perfil ul li{
+		width: 90%;
+	}
+	.perfil-img{
+		margin-bottom: 10% !important;
+	}
+	#hero-perfil .titulo-principal{
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	.titulo-celeste-2{
+		margin-bottom: 8%;
+	}
+	#hero-pendientes{
+		padding-top: 6%;
+		background-image: none;
+	}
+	.centrateeeee{
+		text-align: center;
+	}
+	#hero-pendientes .titulo-celeste-2{
+		margin-bottom: 0;
+	}
+	.waldo-img{
+		height: 75%;
+	}
+	#hero-pendientes h3{
+		font-size: 35px;
+	}
+	#hero-pendientes p{
+		padding-right: 0;
+	}
+	#contacto{
+		text-align: center;
+	}
+	#contacto .btn-submit{
+		padding: 4% 10%;
+	}
+	#contacto .form-control{
+		margin-bottom: 2%;
+	}
+	#contacto .mt-3{
+		margin-top: 0 !important;
+	}
+	#contacto .formulario{
+		margin-top: 5%;
+	}
+	footer p{
+		padding-left: 0;
+		text-align: center;
+	}
+	footer h5{
+		margin-bottom: 0;
+	}
+}
+
+
+
+/*tablet*/
+
+@media (min-width:601px) and (max-width: 1200px) { 
+	header{
+		padding: 0;
+		background-image: url("../img/fondo-nav.jpg");
+	}
+	header ul{
+		margin-top: 5%;
+	}
+	.navbar-toggler{
+		margin-top: 5%;
+	}
+	.logo-borreguitos{
+		width: 15%;
+	}
+	.carousel .carousel-item {
+		height: 350px;
+	}
+	.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+	}
+	.carousel-control-next, .carousel-control-prev {
+   		top: 10% !important;
+		height: 100px;
+		width: 8%;
+	}
+	.carousel-indicators{
+		top: 65%;
+		height: 20px;
+		margin-bottom: 0;
+	}
+	iframe{
+		height: 400px;
+	}
+	#mas-vendidos,#promociones{
+		background-image: none;
+	}
+	#mas-vendidos{
+		background-color: var(--color-general);
+	}
+	.top-padding{
+		padding-top: 40px;
+	}
+	#promociones{
+		padding-top: 50px;
+	}
+	.top-padding-img{
+		padding-top: 0;
+	}
+	.me-5{
+		margin-right: 0 !important;
+	}
+	#hero-perfil .titulo-principal{
+		text-align: center;
+	}
 	#hero-perfil ul li{
 		width: 100%;
 	}
-}
+	#hero-pendientes{
+		padding-top: 6%;
+		padding-bottom: 15%;
+	}
+	#hero-pendientes h3{
+		text-align: left;
+	}
+	#hero-pendientes p{
+		padding-right: 0;
+	}
+	#contacto{
+		text-align: center;
+	}
+	#contacto .btn-submit{
+		padding: 3% 10%;
+		margin-top: 0;
+	}
+	#contacto .form-control{
+		margin-bottom: 5%;
+	}
+	#contacto .mt-3{
+		margin-top: 0 !important;
+	}
+	#contacto .formulario{
+		margin-top: 5%;
+	}
+	footer p{
+		padding-left: 0;
+		text-align: center;
+	}
+	footer h5{
+		margin-bottom: 0;
+	}
+	.icon-redes{
+		font-size: 30px;
+	}
+ }
+
+
+
+
+
 

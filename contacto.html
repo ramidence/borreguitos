@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="icon" href="img/favicon-borreguitos.png">
-    <title>Productos Comprados - Borreguitos</title>
+    <title>Anime - Borreguitos</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 	<link href="css/style.css" rel="stylesheet">
-  	<meta name="keywords" content="hecho a mano, amigurumis, crochet, lana, peluches, anime, disney, tienda, ventas, personajes, series, compras">
-	<meta name="Description" content="pagina donde los compradores pueden ver su historial de compra ">
+	<meta name="keywords" content="hecho a mano, amigurumis, crochet, lana, peluches, anime, disney, tienda, ventas, personajes, series, compras">
+	<meta name="Description" content="pagina donde los usuarios pueden ponerse en contacto con los dueños de borreguitos para solucionar cualquier duda, queja, o pedido especial y personalizado">
 </head>
 
 <body>
@@ -42,13 +42,14 @@
 						<li class="nav-item">
 							<a class="nav-link" href="anime.html">Anime</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contacto.html">Contacto</a>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Contacto</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="nosotros.html">Nosotros</a>
 						</li>
 					</ul>
+			
 					<ul class="me-5">
 						<li class="nav-item">
 							<a href="perfil.html" class="nav-link"><i class="las la-user btn-icon"></i></a>
@@ -66,63 +67,62 @@
 		</nav>
 	</header>
 	
-	<section id="hero-comprados">
-	
-		<div class="container">
-		
-			<h3 class="titulo-principal">Productos Comprados</h3>
-			
-			<div class="row">
+	<section id="contacto">
+        <div class="container">
 
-				<article class="col-lg-3 col-sm-6 col-12 mb-3">
-						<img src="img/prod-potter.png" alt="" class="img-producto img-fluid">
-						<h4 class="titulo-celeste-2">Harry Potter</h4>
-					</article> 
-	
-				<article class="col-lg-3 col-sm-6 col-12">
-						<img src="img/prod-chiqui.png" alt="" class="img-producto img-fluid">
-						<h4 class="titulo-celeste-2">Chiqui</h4>
-					</article> 
-				
-				<article class="col-lg-3 col-sm-6 col-12">
-						<img src="img/prod-wooper.png" alt="" class="img-producto img-fluid">
-						<h4 class="titulo-celeste-2">Wooper</h4>
-					</article> 
-				
-				<article class="col-lg-3 col-sm-6 col-12">
-						<img src="img/comprados-eggoberto.png" alt="" class="img-producto img-fluid">
-						<h4 class="titulo-celeste-2">Eggoberto</h4>
-					</article> 
-	
-			</div>
-	
-			<div class="row">
-	
-				<article class="col-lg-3 col-sm-6 col-12">
-						<img src="img/prod-wario.png" alt="" class="img-producto img-fluid">
-						<h4 class="titulo-celeste-2">Wario</h4>
-					</article> 
-				
-				<article class="col-lg-3 col-sm-6 col-12">
-						<img src="img/prod-luffy.png" alt="" class="img-producto img-fluid">
-						<h4 class="titulo-celeste-2">Luffy</h4>
-					</article> 
-				
-				<article class="col-lg-3 col-sm-6 col-12">
-						<img src="img/prod-ducko.png" alt="" class="img-producto img-fluid">
-						<h4 class="titulo-celeste-2">Ducko</h4>
-					</article> 
-				
-				<article class="col-lg-3 col-sm-6 col-12">
-						<img src="img/comprados-william.png" alt="" class="img-producto img-fluid">
-						<h4 class="titulo-celeste-2">William</h4>
-					</article> 
-	
-			</div>
-		
-		</div>
-	
-	</section>
+            <div class="row mt-5">
+                <article class="col-lg-6 col-sm-12 col-12">
+                    <img src="img/perfil-imagen.png" alt="" class="img-fluid img-form">
+                </article>
+
+                <article class="col-lg-6 col-sm-12 col-12">
+                    <div class="formulario">
+                        <h2 class="titulo-celeste">Envíanos tu mensaje</h2>
+
+                        <form action="" method="post">
+
+                            <div class="row">
+                                <article class="col-lg-6 col-sm-6 col-12">
+                                    <input type="text" name="ubicacion" class="form-control" placeholder="Ubicación">
+                                </article>
+
+                                <article class="col-lg-6 col-sm-6 col-12">
+                                    <input type="text" name="nombre" class="form-control" placeholder="Nombre" required> 
+                                </article>
+                            </div>
+
+                            <div class="row mt-3">
+                                <article class="col-lg-6 col-sm-6 col-12">
+                                    <input type="tel" name="numero" class="form-control" placeholder="Número">
+                                </article>
+
+                                <article class="col-lg-6 col-sm-6 col-12">
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required> 
+                                </article>
+                            </div>
+
+                            <div class="row mt-3">
+                                <article class="col-lg-12 col-sm-12 col-12">
+                                    <textarea name="message" cols="30" rows="5" class="form-control" placeholder="Mensaje" required></textarea>
+                                </article>
+                            </div>
+
+                            <div class="row mt-3">
+                                <article class="col-lg-8 col-sm-12 col-12">
+                                    <p>Estamos muy felices de ayudar con cualquier duda que tengas sobre nuestros productos.</p>
+                                </article>
+
+                                <article class="col-lg-4 col-sm-12 col-12">
+                                    <button type="submit" class="btn btn-submit">Submit</button> 
+                                </article>
+                            </div>
+
+                        </form>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
 	
 	<footer>
 		<div class="container">
@@ -170,20 +170,19 @@
 		
 		</div>
 	</footer>
-
+	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 
 	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5N1CW6NQJM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5N1CW6NQJM"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
 
-  gtag('config', 'G-5N1CW6NQJM');
-</script>
+  	gtag('config', 'G-5N1CW6NQJM');
+	</script>
 	
 </body>
 </html>
-
